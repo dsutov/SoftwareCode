@@ -1,0 +1,8 @@
+package SoftDevLab5;
+
+public class Television implements Licence{
+    @Override
+    public void licenceFee() {
+        System.out.println("TV Licence: €160");
+    }
+}
